@@ -1,0 +1,52 @@
+name: nochy_eat
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  url_launcher: ^6.3.1
+  flutter:
+    sdk: flutter
+
+  # Backend & Supabase
+  supabase_flutter: ^2.5.4
+
+  # State Management & Utilities
+  provider: ^6.1.2
+  intl: ^0.19.0
+  uuid: ^4.4.0
+  http: ^1.2.0
+
+  # UI, Icons & Images
+  cupertino_icons: ^1.0.8
+  lucide_icons: ^0.257.0
+  cached_network_image: ^3.4.1
+  webview_flutter: ^4.10.0
+
+  # Maps & Location
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  geolocator: ^13.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/theme/logoeat.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "lib/theme/logoeat.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "lib/theme/logoeat.png"
